@@ -1,4 +1,5 @@
-<EntityDescriptor entityID="urn:vzateychuk.ciam-sandbox.thomsonreuters.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+<?xml version='1.0' encoding='UTF-8'?>
+<EntityDescriptor entityID="urn:vzateychuk.ciam-sandbox.thomsonreuters.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
   <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
     <KeyDescriptor use="signing">
       <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
@@ -20,4 +21,27 @@
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Surname" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name ID" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
   </IDPSSODescriptor>
+      <md:Organization>
+      <md:OrganizationName xml:lang="tr">Muğla Sıtkı Koçman Üniversitesi</md:OrganizationName>
+      <md:OrganizationName xml:lang="en">Mugla Sitki Kocman University</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="tr">Muğla Sıtkı Koçman Üniversitesi</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="en">Mugla Sitki Kocman University</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="tr">https://mu.edu.tr/</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="en">https://mu.edu.tr/en</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="support">
+      <md:GivenName>Muğla Sıtkı Koçman Üniversitesi</md:GivenName>
+      <md:SurName>Bilgi İşlem Daire Başkanlığı</md:SurName>
+      <md:EmailAddress>mailto:bidb@mu.edu.tr</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="administrative">
+      <md:GivenName>Muğla Sıtkı Koçman Üniversitesi</md:GivenName>
+      <md:SurName>Bilgi İşlem Daire Başkanlığı</md:SurName>
+      <md:EmailAddress>mailto:bidb@mu.edu.tr</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="technical">
+      <md:GivenName>Muğla Sıtkı Koçman Üniversitesi</md:GivenName>
+      <md:SurName>Bilgi İşlem Daire Başkanlığı</md:SurName>
+      <md:EmailAddress>mailto:bidb@mu.edu.tr</md:EmailAddress>
+    </md:ContactPerson>
 </EntityDescriptor>
