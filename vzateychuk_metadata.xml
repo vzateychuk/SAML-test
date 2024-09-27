@@ -1,0 +1,23 @@
+<EntityDescriptor entityID="urn:vzateychuk.ciam-sandbox.thomsonreuters.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDLzCCAhegAwIBAgIJEw5EuXXEYYkiMA0GCSqGSIb3DQEBCwUAMDUxMzAxBgNVBAMTKnZ6YXRleWNodWsuY2lhbS1zYW5kYm94LnRob21zb25yZXV0ZXJzLmNvbTAeFw0yNDA5MjYxMTIzMzNaFw0zODA2MDUxMTIzMzNaMDUxMzAxBgNVBAMTKnZ6YXRleWNodWsuY2lhbS1zYW5kYm94LnRob21zb25yZXV0ZXJzLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALB/+683j6RWjUkPhZZOkSQ+1WXV7w4GUptCXF8PjfmyUMHunEGBxinvFs4qgL62Nlhgba8GRJyuzc+mgbJdx88rnnV90qWh+jQFOpOwprEZxwJGokBFiP65xNkH+AeIO/t/yWhGcvnI4dyMiqQ0BVMbyJsc+6QuljbVKwnaE5b4Ijothwntt3MYZ2dZGh+ehepOk7UUL9ZbjGztEXw8yrMYQRm1ng1yXHzKkXUuHva3M1vhYk2vne9/yJzBVfxcPWfpTgSQJ9aUU/Zh721g+fMRV3A0kezkLA38zUY/FT6DLDQ2pOAQLBOi/uBAIm1uss+mk3JdjkUn4nTR0sVLyDcCAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUaHHOAn0qYfcx6Z+NXsdCshXl+u0wDgYDVR0PAQH/BAQDAgKEMA0GCSqGSIb3DQEBCwUAA4IBAQBenPyjSi/pDqeJnSF+37m47KL1PeJoqFNjShwq8SuEvxj5M7pjgiEjRPCaxldAY24joEemPv7j27jmzN1sxlrTWZiKgQ+Bve9CZjvQJMQ4uJbLvYlW2Q9bKJlSvjwSOVw1WHVcywEtlBjPPQ7hvRw4pjqRa8Q4u4NNXmRt/r5xba+zdb3XLcegJqEuX4Dd+qCYg9a+fTkXw+bNP8BiiRbqJtstQyXusBwNjX94D4Bvau1/5h86cQG/0wqON3xStut8r+BBkny6Jh1oPPPv51S6J9CGjNba1gaPKlXD+VAe1Q5xktBq8Bv4udqtfNWaRxQEV4wpjoAmGHU01UCeEnQr</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7/logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7/logout"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="E-Mail Address" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Given Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Surname" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name ID" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+  </IDPSSODescriptor>
+</EntityDescriptor>
