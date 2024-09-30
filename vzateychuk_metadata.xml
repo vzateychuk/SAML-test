@@ -13,35 +13,22 @@
     <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
     <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
-    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7"/>
-    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7.2"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7.2"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="E-Mail Address" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Given Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Surname" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name ID" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
   </IDPSSODescriptor>
-      <md:Organization>
-      <md:OrganizationName xml:lang="tr">Muğla Sıtkı Koçman Üniversitesi</md:OrganizationName>
-      <md:OrganizationName xml:lang="en">Mugla Sitki Kocman University</md:OrganizationName>
-      <md:OrganizationDisplayName xml:lang="tr">Muğla Sıtkı Koçman Üniversitesi</md:OrganizationDisplayName>
-      <md:OrganizationDisplayName xml:lang="en">Mugla Sitki Kocman University</md:OrganizationDisplayName>
-      <md:OrganizationURL xml:lang="tr">https://mu.edu.tr/</md:OrganizationURL>
-      <md:OrganizationURL xml:lang="en">https://mu.edu.tr/en</md:OrganizationURL>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">Kenya Education Network(KENET)</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">KENET</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://kenet.or.ke</md:OrganizationURL>
     </md:Organization>
-    <md:ContactPerson contactType="support">
-      <md:GivenName>Muğla Sıtkı Koçman Üniversitesi</md:GivenName>
-      <md:SurName>Bilgi İşlem Daire Başkanlığı</md:SurName>
-      <md:EmailAddress>mailto:bidb@mu.edu.tr</md:EmailAddress>
-    </md:ContactPerson>
-    <md:ContactPerson contactType="administrative">
-      <md:GivenName>Muğla Sıtkı Koçman Üniversitesi</md:GivenName>
-      <md:SurName>Bilgi İşlem Daire Başkanlığı</md:SurName>
-      <md:EmailAddress>mailto:bidb@mu.edu.tr</md:EmailAddress>
-    </md:ContactPerson>
     <md:ContactPerson contactType="technical">
-      <md:GivenName>Muğla Sıtkı Koçman Üniversitesi</md:GivenName>
-      <md:SurName>Bilgi İşlem Daire Başkanlığı</md:SurName>
-      <md:EmailAddress>mailto:bidb@mu.edu.tr</md:EmailAddress>
+      <md:GivenName>Anthony</md:GivenName>
+      <md:SurName>Kimani</md:SurName>
+      <md:EmailAddress>mailto:akimani@kenet.or.ke</md:EmailAddress>
     </md:ContactPerson>
 </EntityDescriptor>
