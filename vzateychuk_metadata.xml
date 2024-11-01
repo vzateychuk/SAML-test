@@ -22,13 +22,13 @@
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name ID" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
   </IDPSSODescriptor>
     <md:Organization>
-      <md:OrganizationName xml:lang="en">Kenya Education Network(KENET)</md:OrganizationName>
-      <md:OrganizationDisplayName xml:lang="en">KENET</md:OrganizationDisplayName>
-      <md:OrganizationURL xml:lang="en">https://kenet.or.ke</md:OrganizationURL>
+      <md:OrganizationName xml:lang="en">vzateychuk</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">vzateychuk</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://vlad.com</md:OrganizationURL>
     </md:Organization>
     <md:ContactPerson contactType="technical">
-      <md:GivenName>Anthony</md:GivenName>
-      <md:SurName>Kimani</md:SurName>
-      <md:EmailAddress>mailto:akimani@kenet.or.ke</md:EmailAddress>
+      <md:GivenName>Vladimir</md:GivenName>
+      <md:SurName>Zateychuk</md:SurName>
+      <md:EmailAddress>mailto:vzateychuk@gmail.com</md:EmailAddress>
     </md:ContactPerson>
 </EntityDescriptor>
