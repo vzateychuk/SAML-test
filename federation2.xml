@@ -70,14 +70,14 @@
     <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name ID" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
   </IDPSSODescriptor>
     <md:Organization>
-      <md:OrganizationName xml:lang="en">vzateychuk3-Case3</md:OrganizationName>
-      <md:OrganizationDisplayName xml:lang="en">vzateychuk3-Case1</md:OrganizationDisplayName>
+      <md:OrganizationName xml:lang="en">vzateychuk3-Case3-dev</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">vzateychuk3-Case3-dev</md:OrganizationDisplayName>
       <md:OrganizationURL xml:lang="en">https://3.3vlad.com</md:OrganizationURL>
     </md:Organization>
     <md:ContactPerson contactType="technical">
-      <md:GivenName>Vladimir-Case3</md:GivenName>
-      <md:SurName>Zateychuk-Case3</md:SurName>
-      <md:EmailAddress>mailto:vzateychuk3.3@gmail.com</md:EmailAddress>
+      <md:GivenName>Vladimir-Case3-dev</md:GivenName>
+      <md:SurName>Zateychuk-Case3-dev</md:SurName>
+      <md:EmailAddress>mailto:vzateychuk3.4@gmail.com</md:EmailAddress>
     </md:ContactPerson>
 </EntityDescriptor>
 
