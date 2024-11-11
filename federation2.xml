@@ -47,4 +47,38 @@
     </md:ContactPerson>
 </EntityDescriptor>
 
+<EntityDescriptor entityID="urn:vzateychuk4.ciam-sandbox.thomsonreuters.com" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+  <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlEOFRDQ0F0bWdBd0lCQWdJVVY3eWZtM0s5YnhEdW5EbEQ3dlBkUXNEOHdNSXdEUVlKS29aSWh2Y05BUUVMDQpCUUF3Z1ljeEN6QUpCZ05WQkFZVEFsVlRNUXN3Q1FZRFZRUUlEQUpVV0RFUE1BMEdBMVVFQnd3R1FYVnpkR2x1DQpNUmd3RmdZRFZRUUtEQTlTVDBkQkxVRk9SQzFEVDFCWlZFRXhEVEFMQmdOVkJBc01CRkpQUjBFeEV6QVJCZ05WDQpCQU1NQ25aNllYUmxlV05vZFdzeEhEQWFCZ2txaGtpRzl3MEJDUUVXRFhac1lXUkFkbXhoWkM1amIyMHdIaGNODQpNalF4TURBeE1URXdNVEF5V2hjTk1qVXhNREF4TVRFd01UQXlXakNCaHpFTE1Ba0dBMVVFQmhNQ1ZWTXhDekFKDQpCZ05WQkFnTUFsUllNUTh3RFFZRFZRUUhEQVpCZFhOMGFXNHhHREFXQmdOVkJBb01EMUpQUjBFdFFVNUVMVU5QDQpVRmxVUVRFTk1Bc0dBMVVFQ3d3RVVrOUhRVEVUTUJFR0ExVUVBd3dLZG5waGRHVjVZMmgxYXpFY01Cb0dDU3FHDQpTSWIzRFFFSkFSWU5kbXhoWkVCMmJHRmtMbU52YlRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDDQpBUW9DZ2dFQkFPQkFISGdJcVFiNnFBd3doWmhLZ3ZXSFBCMlZQWHNvZHNXaFFCYmxPc3lhN1NxQlkxS0VQN0NMDQp0dUFXWUxLVis1ZzcycVJYc05McytrZjQwUnVpRTc2SXdXOS9FNGFxRWpNa0lCblJvVXVlaERDSE92Tzc0ZzBwDQpCRjBwNUwvdjZ5WlkwaUV2SE1qOEU1TGJxNWJyUS9TY1U2MUxFaFNaWmE5KzkydDZYdSt3OU52aWpLdFpvOUFWDQpXQmxWRjhoWk1rRUtlLzFrbEZSN2I5bWJNRjRsbXorTEpiamNHVlNDYzlCcUVkc3d6am91S2pZTS9kaE5yckdPDQorcWY3eko3R2ZsUDdJeEZmU29xODNiV3VHbCsyL3lVSDhwTHlaRU5QN2RDckMraE8vQ1VwSmtOWTFOL0ZraG1EDQp5a2F4Ui9KdmRTVkVjUlNUa3dQWkJrb0IwU3Nrdk1rQ0F3RUFBYU5UTUZFd0hRWURWUjBPQkJZRUZLeGU2SWd2DQozdHV1R245RDY2MU5FVDAxTkZUUE1COEdBMVVkSXdRWU1CYUFGS3hlNklndjN0dXVHbjlENjYxTkVUMDFORlRQDQpNQThHQTFVZEV3RUIvd1FGTUFNQkFmOHdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSWNEK0FtUURXS3h2OG1WDQplcURveTZqZjE1djFtdFFtNUp1YkhhN0p1eHRoaDgrYkVFMW5udG54TC81Q0QwemVjSXM0Y2dmVTNoKzhwMmc0DQpnM2RVK0tQdXYyY1daWDVOeUlDak1KNVE5ZXd4S3JFR1drM3VqM2xkQmRYUTdGSE9kT2V5a2xhK0VPdnFneUtMDQprS0RkN3E3WGJPZUdlQ1UvanNDTVl0ZGNRY3R3bzR1eGt3akZ0SmdJVFJGbSsySldHa2NBRlg5NXdnSmxVLzFtDQp4K3dxQko0UHhZQUJRRjAxTmxaOWJPK1B0UmRReGxvcWZETFVjNEQyVnVsQ0sxUGVRRUVXMWFPUzRJaHg5ZEYxDQpXa2VoQ1FoV0pOSEk3R2FlT3pxeHEzdHI2d2x1amdzbWwzUkh0ZERNemYvNkVJV2lrN2N1dW5QZG51UHM4TjJWDQoza0xsdDlBPQ0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ0K</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7/logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7/logout"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7.2"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vzateychuk.ciam-sandbox.thomsonreuters.com/samlp/vboG55TSU5oG28UXWkAg5EUXhD7ZyZo7.2"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="E-Mail Address" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Given Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Surname" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+    <Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name ID" xmlns="urn:oasis:names:tc:SAML:2.0:assertion"/>
+  </IDPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">vzateychuk4</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">vzateychuk4</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://vzateychuk4.com</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+      <md:GivenName>Vladimir4</md:GivenName>
+      <md:SurName>Zateychuk4</md:SurName>
+      <md:EmailAddress>mailto:vzateychuk4@gmail.com</md:EmailAddress>
+    </md:ContactPerson>
+</EntityDescriptor>
+
 </EntitiesDescriptor>
